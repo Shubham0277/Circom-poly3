@@ -22,7 +22,7 @@ const config: HardhatUserConfig = {
   networks:{
     mumbai: {
       url: `https://polygon-mumbai.g.alchemy.com/v2/amdAP9OM1m_vT_xQk7SyEPZiXNcjViX5`,
-      accounts: ["1c8985eaec7778510abfc441fa478b4cb80f900462e23d20129eae23861c0c8c"]//process.env.private
+      accounts: [process.env.private]
     }
   },
   circom: {
